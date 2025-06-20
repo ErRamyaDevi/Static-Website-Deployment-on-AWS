@@ -1,6 +1,19 @@
 # Static-Website-Deployment-on-AWS
 
-step 1: create a unique bucket and upload all the required files such as index.html,error.html,css,images for a static website into bucket.
+step 1: create a unique bucket and upload all the required files such as index.html,error.html,css,images in a structured order for a static website into bucket.
+
+```
+/website
+ ┣ index.html
+ ┣ about.html
+ ┣ /css
+ ┃   ┗ style.css
+ ┣ /js
+ ┃   ┗ app.js
+ ┗ /images
+     ┗ logo.png
+```
+
 ![image](https://github.com/user-attachments/assets/e563a3d7-de4d-4a1b-9013-ca6e8d08cf21)
 
 ![image](https://github.com/user-attachments/assets/cef5f639-6f17-46bd-88f0-1e9f22ac75fa)
