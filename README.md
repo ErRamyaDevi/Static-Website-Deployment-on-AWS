@@ -34,3 +34,42 @@ First Page:
 second Page:
 ![image](https://github.com/user-attachments/assets/64f2aa97-d02a-42a6-9060-6d5e403ae3ea)
 
+Step 5: Creating CloudFront Distribution:
+
+Created a cloudFront Distribution and set the S3 website endpoint as the origin.
+
+![image](https://github.com/user-attachments/assets/b1af7786-e9b9-4f05-bc12-a556369cbd04)
+
+![image](https://github.com/user-attachments/assets/f4c76bcb-21c0-4165-9f4f-0e59061dff89)
+
+choose origin as specified bucket name and origin path as "/index.html"
+
+step 6: Add AWS WAF(optional)
+
+Integrated AWS WAF for security (optional).
+
+![image](https://github.com/user-attachments/assets/278654e3-7a9c-4938-80d0-69e7926246c4)
+
+Step 7: Review & create distribution
+
+![image](https://github.com/user-attachments/assets/26c5eea2-4915-485d-9a3a-223f846c85bf)
+
+Step 8: Deploying and Acessing Website Via CloudFront.
+
+After deploying,  place the Generated Domain  **Distribution domain name** https://dzlorc2dsejjd.cloudfront.net globally.
+
+![image](https://github.com/user-attachments/assets/04c59f29-feaf-4fd0-afbf-7e732d1ff53e)
+
+![image](https://github.com/user-attachments/assets/5b09282f-b8a8-4744-8bac-09f08fe845c9)
+
+![image](https://github.com/user-attachments/assets/5b240ed1-7eb6-443b-8bd8-ada9884cbede)
+
+Tip: In Origin settings, you have to use website endpoint instead of bucket endpoint.
+
+![image](https://github.com/user-attachments/assets/26fb993d-c4a8-406c-b5d5-6f6c3098dc79)
+
+![image](https://github.com/user-attachments/assets/7971eb71-3eb0-476b-a2eb-87bb1056dc6d)
+
+Protocol: HTTP Port:80
+
+
