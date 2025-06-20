@@ -15,3 +15,9 @@ step 4: Enable the **static website hosting** in properties column, and using **
 
 ![image](https://github.com/user-attachments/assets/d4416623-ef94-496d-9600-92138399da67)
 
+First Page:
+![image](https://github.com/user-attachments/assets/18dc4e85-5462-4f7e-b8c2-57b468f8b33e)
+
+second Page:
+![image](https://github.com/user-attachments/assets/64f2aa97-d02a-42a6-9060-6d5e403ae3ea)
+
